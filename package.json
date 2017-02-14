@@ -1,0 +1,19 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "a test project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test",
+    "custom-script": "echo npm"
+  },
+  "author": "Valerio",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
